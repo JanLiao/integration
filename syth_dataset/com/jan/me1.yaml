@@ -1,0 +1,17 @@
+MODEL:
+  部门预算:
+    TYPE: EVENT
+    NAME: 部门预算
+    PATH:
+      MODEL: Datapoint_Namespace
+      SCOPE: GLOBAL
+    ATTR-LIST:
+      - datapoint_name
+      - chr_id
+      - bgt_year
+      - state_code
+      - state_name
+      - mb_code
+      - mb_name
+      - en_code
+      - en_name
